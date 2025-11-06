@@ -3,3 +3,70 @@
 
 /* Target the title element and apply the following styles: */
 
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #b3d9ff, #dcb3ff);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #container {
+    background-color: white;
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: #5e2d79;
+  }
+  
+  #top-animals {
+    color: #0077cc;
+  }
+  
+  #animal-img {
+    width: 70%;
+    border: 3px solid #7b42f6;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  #fun-fact {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  #explore-btn {
+    background-color: #7b42f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #explore-btn:hover {
+    background-color: #a56df8;
+    transition: 0.3s;
+  }
+  
+  footer {
+    font-size: 12px;
+    color: #555;
+    margin-top: 30px;
+  }
+  
+  
+  
+  #my-photo {
+    width: 300px;     /* change this to any size you want */
+    height: auto;     /* keeps it from looking stretched */
+    border-radius: 10px; /* optional rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* optional shadow */
+  }
+  
